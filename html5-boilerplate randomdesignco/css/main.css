@@ -94,9 +94,30 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html {
+     box-sizing: border-box;
+   }
+ *, *:before, *:after {
+     box-sizing: inherit;
+   }
+.header {
+     background-color: black;
+     color: white;
+     padding: 1em;
+     position: fixed;
+     width: 100%;
+}
+.header i {
+    float:right;
+    padding-right: 1.25em;
+    border: solid 1px red;
 
+}
 
-
+.header h1 {
+  margin: 0px;
+  font-size: 1em;
+}
 
 
 
