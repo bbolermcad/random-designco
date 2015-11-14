@@ -104,8 +104,9 @@ html {
      background-color: black;
      color: white;
      padding: 1em;
-     position: fixed;
      width: 100%;
+     position: fixed;
+     margin: 0px;
 }
 .header i {
     float:right;
@@ -117,6 +118,11 @@ html {
 .header h1 {
   margin: 0px;
   font-size: 1em;
+}
+
+.subheader h2 {
+  size: 3em;
+  border: 1px solid red;
 }
 
 
