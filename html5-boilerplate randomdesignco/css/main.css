@@ -100,6 +100,10 @@ html {
  *, *:before, *:after {
      box-sizing: inherit;
    }
+body {
+  max-width: 41.25em;
+}
+
 .header {
      background-color: black;
      color: white;
@@ -107,6 +111,7 @@ html {
      width: 100%;
      position: fixed;
      margin: 0px;
+     max-width: 41.25em;
 }
 .header i {
     float:right;
@@ -120,16 +125,23 @@ html {
   font-size: 1em;
 }
 
+.subheader {
+  border: 1px solid red;
+}
+
 .subheader img {
   z-index: -10;
   position: relative;
     }
 
-.subheader h2 {
+.subheader h2 h3 {
   size: 3em;
   border: 1px solid red;
-  margin-bottom: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
+
 
 
 
