@@ -101,7 +101,6 @@ html {
      box-sizing: inherit;
    }
 body {
-  max-width: 41.25em;
 }
 
 .header {
@@ -111,7 +110,6 @@ body {
      width: 100%;
      position: fixed;
      margin: 0px;
-     max-width: 41.25em;
 }
 .header i {
     float:right;
@@ -128,6 +126,8 @@ body {
 .subheader {
   border: 1px solid red;
   position: relative;
+  overflow: hidden;
+  max-height: 30em;
 }
 
 .subheader img {
@@ -135,12 +135,17 @@ body {
   position: relative;
     }
 
-.subheader h2 h3 {
+.subheadercontent {
+position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+ z-index: 1;
+}
+
+.subheader h2 {
   size: 3em;
-  border: 1px solid red;
-  position: absolute;
-  top: 50%;
-  left: 50%;
 }
 
 
