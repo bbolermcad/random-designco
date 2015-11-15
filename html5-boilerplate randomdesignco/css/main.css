@@ -129,6 +129,7 @@ body {
   overflow: hidden;
   max-height: 30em;
   color: white;
+  text-decoration: none;
 }
 
 .subheader img {
@@ -138,16 +139,23 @@ body {
   z-index: -10;
     }
 
-.subheadercontent {
+.subheadertext {
 position: absolute;
  top: 50%;
  left: 50%;
  transform: translate(-50%, -50%);
- text-align: center;
 }
 
 .subheader h2 {
   size: 3em;
+}
+
+.subheader h3 {
+  display: inline-block;
+  border: 0.125em solid white;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: white;
 }
 
 
