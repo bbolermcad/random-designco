@@ -120,9 +120,15 @@ html {
   font-size: 1em;
 }
 
+.subheader img {
+  z-index: -10;
+  position: relative;
+    }
+
 .subheader h2 {
   size: 3em;
   border: 1px solid red;
+  margin-bottom: 50px;
 }
 
 
