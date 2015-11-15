@@ -128,11 +128,14 @@ body {
   position: relative;
   overflow: hidden;
   max-height: 30em;
+  color: white;
 }
 
 .subheader img {
-  z-index: -10;
+  display: block;
   position: relative;
+  width: 100%;
+  z-index: -10;
     }
 
 .subheadercontent {
@@ -141,7 +144,6 @@ position: absolute;
  left: 50%;
  transform: translate(-50%, -50%);
  text-align: center;
- z-index: 1;
 }
 
 .subheader h2 {
