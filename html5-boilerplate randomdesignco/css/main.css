@@ -127,6 +127,7 @@ body {
 
 .subheader {
   border: 1px solid red;
+  position: relative;
 }
 
 .subheader img {
