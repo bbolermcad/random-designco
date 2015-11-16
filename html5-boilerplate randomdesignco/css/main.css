@@ -110,6 +110,7 @@ body {
      width: 100%;
      position: fixed;
      margin: 0px;
+     overflow: auto;
 }
 .header i {
     float:right;
@@ -176,16 +177,18 @@ position: absolute;
 .project {
   float:left;
   width: 50%;
+  background: hsla(200, 50%, 95%, .75);
+  position: relative;
   padding-left: 1em;
   padding-right: 1em;
   padding-bottom: .2em;
-  position: relative;
-  display: inline-block;
-
 }
 
 .project img {
   width: 100%;
+  z-index: -10;
+  display: block;
+  position: relative;
 }
 
 .title {
@@ -193,6 +196,8 @@ position: absolute;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
+   z-index: 10;
+
 
 }
 
