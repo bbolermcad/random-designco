@@ -167,6 +167,7 @@ position: absolute;
 
 .projects {
   overflow: auto;
+  position: relative;
 }
 .projects h2{
   padding-left: 2em;
@@ -177,13 +178,22 @@ position: absolute;
   width: 50%;
   padding-left: 1em;
   padding-right: 1em;
-  border: 1px red solid;
-  position: absolute;
+  padding-bottom: .2em;
+  position: relative;
+  display: inline-block;
 
 }
 
 .project img {
   width: 100%;
+}
+
+.title {
+  position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
 }
 
 .footer {
