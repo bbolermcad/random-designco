@@ -205,9 +205,10 @@ position: absolute;
    z-index: 10;
 }
 
-.project img:hover {
+.project a:hover {
   background: none;
   background: hsla(0, 0%, 0%, 0);
+  color: white;
 }
 
 .footer {
