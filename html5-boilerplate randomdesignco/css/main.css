@@ -129,6 +129,7 @@ body {
   overflow: hidden;
   max-height: 30em;
   color: white;
+  text-decoration: none;
 }
 
 .subheader img {
@@ -138,20 +139,69 @@ body {
   z-index: -10;
     }
 
-.subheadercontent {
+.subheadertext {
 position: absolute;
  top: 50%;
  left: 50%;
  transform: translate(-50%, -50%);
- text-align: center;
 }
 
 .subheader h2 {
   size: 3em;
 }
 
+.subheader h3 {
+  display: inline-block;
+  border: 0.125em solid white;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: white;
+}
+
+.about h2{
+  padding-left: 2em;
+}
+.about p {
+  padding-left: 2em;
+}
+
+.projects h2{
+  padding-left: 2em;
+}
+
+.projectleft {
+  float: left;
+  display: inline-block;
+  width: 50%;
+  padding-left: 1em;
+  padding-right: .15em;
+  position: relative;
+  z-index: -10;
+}
+
+.projectright {
+  float: right;
+  width: 50%;
+  display: inline-block;
+  padding-left: .15em;
+  padding-right: 1em;
+  position: relative;
+  z-index: -10;
+}
+
+.projects img {
+  max-width: 100%;
+  padding-bottom: .15em;
+}
+
+.projectitem {
+  border: 1px red solid;
+}
 
 
+.footer {
+  clear: both;
+}
 
 
 
