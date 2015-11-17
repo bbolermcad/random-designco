@@ -115,7 +115,6 @@ body {
 .header i {
     float:right;
     padding-right: 1.25em;
-    border: solid 1px red;
 
 }
 
@@ -124,8 +123,8 @@ body {
   font-size: 1em;
 }
 
+
 .subheader {
-  border: 1px solid red;
   position: relative;
   overflow: hidden;
   max-height: 30em;
@@ -138,7 +137,7 @@ body {
   position: relative;
   width: 100%;
   z-index: -10;
-    }
+  }
 
 .subheadertext {
 position: absolute;
@@ -155,6 +154,11 @@ position: absolute;
   display: inline-block;
   border: 0.125em solid white;
   padding: 0.5em 1em;
+  text-decoration: none;
+  color: white;
+}
+
+.subheader a {
   text-decoration: none;
   color: white;
 }
@@ -182,7 +186,7 @@ position: absolute;
   margin-left: 1em;
   margin-right: .5em;
   margin-bottom: .5em;
-  border: red 1px solid;
+
 }
 
 .project a {
@@ -213,7 +217,12 @@ position: absolute;
 
 .footer {
   clear: both;
+  border-top: 1px solid grey;
+  padding-top: 2em;
+}
 
+.footer p {
+  text-align: center;
 }
 
 
