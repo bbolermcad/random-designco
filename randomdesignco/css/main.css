@@ -115,7 +115,7 @@ img {
 
 .button {
   border: .15em solid black;
-  padding: .5em 1em;
+  padding: 1em;
   font-size: 1.5em;
   text-decoration: none;
   display: inline-block;
@@ -211,12 +211,9 @@ position: absolute;
 
 .project {
   float:left;
-  width: 45%;
-  background: hsla(200, 50%, 95%, .75);
+  width: 50%;
+  background: hsla(0, 100%, 100%, .75);
   position: relative;
-  margin-left: 1em;
-  margin-right: .5em;
-  margin-bottom: .5em;
 
 }
 
@@ -230,6 +227,7 @@ position: absolute;
   z-index: -10;
   display: block;
   position: relative;
+  border: 1px solid white;
 }
 
 .title {
@@ -238,12 +236,15 @@ position: absolute;
    left: 50%;
    transform: translate(-50%, -50%);
    z-index: 10;
+   text-align: center;
 }
 
-.project a:hover {
-  background: none;
-  background: hsla(0, 0%, 0%, 0);
+.project:hover h3{
   color: white;
+}
+
+.project:hover {
+  background-color: hsla(0, 0%, 0%, 0.5);
 }
 
 .footer {
