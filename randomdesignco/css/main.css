@@ -204,6 +204,7 @@ position: absolute;
 .projects {
   overflow: auto;
   position: relative;
+  padding-bottom: 2em;
 }
 .projects h2{
   padding-left: 2em;
@@ -248,6 +249,7 @@ position: absolute;
 }
 
 .footer {
+  margin-top: 1em;
   clear: both;
   border-top: 1px solid grey;
   padding-top: 2em;
